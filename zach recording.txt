@@ -1,0 +1,156 @@
+
+Suffern, Zach (RIS-ATL)
+0 minutes 6 seconds0:06
+Suffern, Zach (RIS-ATL) 0 minutes 6 seconds
+Let me come me rephrase again real quick.
+Suffern, Zach (RIS-ATL) 0 minutes 8 seconds
+So she's been working on getting our deployment code out there.
+Suffern, Zach (RIS-ATL) 0 minutes 13 seconds
+So right now what we do have is ability to build our code, deploy it to jfrog and deploy it to the app services.
+Suffern, Zach (RIS-ATL) 0 minutes 23 seconds
+I believe from the jfrog I'll need to double check that and he's currently working on getting the data bricks.
+Suffern, Zach (RIS-ATL) 0 minutes 32 seconds
+Deployment going as well.
+Suffern, Zach (RIS-ATL) 0 minutes 34 seconds
+One working that to work, we talked to the.
+Suffern, Zach (RIS-ATL) 0 minutes 40 seconds
+Tardis team, especially Tom Leonard and he showed us a bunch of different YAML files for their pipelines that they use and so I had Raghu go through the different ones and see what they actually do and what we can use.
+Suffern, Zach (RIS-ATL) 0 minutes 53 seconds
+Uh, I've taken his report and I've built out this kind of like pipeline of the different steps that we have or and we'll need and we're gonna.
+Suffern, Zach (RIS-ATL) 1 minute 4 seconds
+I'm gonna turn these in.
+Suffern, Zach (RIS-ATL) 1 minute 5 seconds
+The tickets here I just haven't had chance to yet, so I apologize.
+
+Suffern, Zach (RIS-ATL)
+9 minutes 36 seconds9:36
+Suffern, Zach (RIS-ATL) 9 minutes 36 seconds
+And then this does also align up with the updated way we're gonna do.
+Suffern, Zach (RIS-ATL) 9 minutes 43 seconds
+A GitHub branches, so I should.
+CR
+Chimata, Raghu (RIS-CON)
+9 minutes 45 seconds9:45
+Chimata, Raghu (RIS-CON) 9 minutes 45 seconds
+Umm.
+
+Suffern, Zach (RIS-ATL)
+9 minutes 47 seconds9:47
+Suffern, Zach (RIS-ATL) 9 minutes 47 seconds
+I don't know if I did.
+Suffern, Zach (RIS-ATL) 9 minutes 48 seconds
+I talk about this Tuesday.
+Suffern, Zach (RIS-ATL) 9 minutes 49 seconds
+Or did I just talk to talk about with you, Raghu?
+CR
+Chimata, Raghu (RIS-CON)
+9 minutes 52 seconds9:52
+Chimata, Raghu (RIS-CON) 9 minutes 52 seconds
+About the branch policies.
+
+Suffern, Zach (RIS-ATL)
+9 minutes 53 seconds9:53
+Suffern, Zach (RIS-ATL) 9 minutes 53 seconds
+Yeah, I think I think I talked with you.
+CR
+Chimata, Raghu (RIS-CON)
+9 minutes 54 seconds9:54
+Chimata, Raghu (RIS-CON) 9 minutes 54 seconds
+Ohh with yeah you talk to me.
+Chimata, Raghu (RIS-CON) 9 minutes 57 seconds
+I think yesterday, yeah, yeah.
+
+Suffern, Zach (RIS-ATL)
+9 minutes 59 seconds9:59
+Suffern, Zach (RIS-ATL) 9 minutes 59 seconds
+OK, sorry.
+Suffern, Zach (RIS-ATL) 9 minutes 59 seconds
+I'm just going to dismiss it.
+Suffern, Zach (RIS-ATL) 10 minutes 1 second
+Hey, I'm gonna review the the updated branch stuff.
+CR
+Chimata, Raghu (RIS-CON)
+10 minutes 1 second10:01
+Chimata, Raghu (RIS-CON) 10 minutes 1 second
+That's the.
+
+Suffern, Zach (RIS-ATL)
+10 minutes 4 seconds10:04
+Suffern, Zach (RIS-ATL) 10 minutes 4 seconds
+Essentially, we're just gonna have feature branches, main branches and release branches so that this will all linked up to the I think, except it's not probably linked this up to the main branch, and if it's production, will hook it up to a release branch I believe.
+CR
+Chimata, Raghu (RIS-CON)
+10 minutes 7 seconds10:07
+Chimata, Raghu (RIS-CON) 10 minutes 7 seconds
+Right.
+
+Suffern, Zach (RIS-ATL)
+10 minutes 20 seconds10:20
+Suffern, Zach (RIS-ATL) 10 minutes 20 seconds
+How that that will work?
+Suffern, Zach (RIS-ATL) 10 minutes 22 seconds
+Well, we'll, we'll get.
+CR
+Chimata, Raghu (RIS-CON)
+10 minutes 22 seconds10:22
+Chimata, Raghu (RIS-CON) 10 minutes 22 seconds
+Yeah, yeah, sure.
+
+Suffern, Zach (RIS-ATL)
+10 minutes 23 seconds10:23
+Suffern, Zach (RIS-ATL) 10 minutes 23 seconds
+We'll, we'll we'll figure that out.
+Suffern, Zach (RIS-ATL) 10 minutes 26 seconds
+Yeah.
+Suffern, Zach (RIS-ATL) 10 minutes 27 seconds
+OK.
+Suffern, Zach (RIS-ATL) 10 minutes 52 seconds
+OK, cool.
+Suffern, Zach (RIS-ATL) 10 minutes 53 seconds
+Has that been tricky or just having time to look at yet or where's that?
+CR
+Chimata, Raghu (RIS-CON)
+10 minutes 55 seconds10:55
+Chimata, Raghu (RIS-CON) 10 minutes 55 seconds
+No, that, I mean there are a couple of things that we need to look into.
+Chimata, Raghu (RIS-CON) 11 minutes 1 second
+So I I was just checking in some other places where we could control that, but I haven't come to a conclusion yet.
+
+Suffern, Zach (RIS-ATL)
+11 minutes 5 seconds11:05
+Suffern, Zach (RIS-ATL) 11 minutes 5 seconds
+Yeah.
+CR
+Chimata, Raghu (RIS-CON)
+11 minutes 8 seconds11:08
+Chimata, Raghu (RIS-CON) 11 minutes 8 seconds
+But yeah, I'll come to that.
+Chimata, Raghu (RIS-CON) 11 minutes 10 seconds
+But there is, yeah.
+
+Suffern, Zach (RIS-ATL)
+11 minutes 10 seconds11:10
+Suffern, Zach (RIS-ATL) 11 minutes 10 seconds
+OK.
+Suffern, Zach (RIS-ATL) 11 minutes 10 seconds
+Yep, sounds good.
+Suffern, Zach (RIS-ATL) 11 minutes 12 seconds
+Alright, thank you gentlemen.
+Suffern, Zach (RIS-ATL) 11 minutes 13 seconds
+I appreciate it.
+CR
+Chimata, Raghu (RIS-CON)
+11 minutes 14 seconds11:14
+Chimata, Raghu (RIS-CON) 11 minutes 14 seconds
+Yeah.
+Chimata, Raghu (RIS-CON) 11 minutes 14 seconds
+Thank you so much.
+Chimata, Raghu (RIS-CON) 11 minutes 15 seconds
+Thank you, Ahmed. Bye.
+
+Suffern, Zach (RIS-ATL)
+11 minutes 16 seconds11:16
+Suffern, Zach (RIS-ATL) 11 minutes 16 seconds
+Alright, bye.
+
+Suffern, Zach (RIS-ATL) stop
